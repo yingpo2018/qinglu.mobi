@@ -1,0 +1,7 @@
+* 增加pwa轻应用——主做国内的https://www.pwaappstore.cn/#/pwashop-toplist
+    https://github.com/xiyouMc/V2EX_Spider
+* Readme翻译为中文，方便国内网站添加
+* 页面上增加安卓手机怎么配置轻应用，怎么设置快捷方式
+* 证书绑定
+* 搜索引擎化
+* pv/uv数据获取

@@ -33,12 +33,42 @@
 
 		<input class="tags__radio hidden js-tag" type="radio" name="tag" value="all" checked id="tags-all">
 		<label class="tags__label" for="tags-all">
-			all
+		  全部
+		</label>
+
+		<input class="tags__radio hidden js-tag" type="radio" name="tag" value="game" id="tags-game">
+		<label class="tags__label" for="tags-game">
+			轻游戏
+		</label>
+
+		<input class="tags__radio hidden js-tag" type="radio" name="tag" value="news" id="tags-news">
+		<label class="tags__label" for="tags-news">
+			轻新闻
+		</label>
+
+		<input class="tags__radio hidden js-tag" type="radio" name="tag" value="shopping" id="tags-shopping">
+		<label class="tags__label" for="tags-shopping">
+			轻购物
+		</label>
+
+		<input class="tags__radio hidden js-tag" type="radio" name="tag" value="social" id="tags-social">
+		<label class="tags__label" for="tags-social">
+			轻社交
+		</label>
+
+		<input class="tags__radio hidden js-tag" type="radio" name="tag" value="event" id="tags-event">
+		<label class="tags__label" for="tags-event">
+			轻活动
+		</label>
+
+		<input class="tags__radio hidden js-tag" type="radio" name="tag" value="tool" id="tags-tool">
+		<label class="tags__label" for="tags-tool">
+			轻工具
 		</label>
 
 		<input class="tags__radio hidden js-tag" type="radio" name="tag" value="business" id="tags-business">
 		<label class="tags__label" for="tags-business">
-			business
+			商业
 		</label>
 
 		<input class="tags__radio hidden js-tag" type="radio" name="tag" value="demo" id="tags-demo">
@@ -46,49 +76,38 @@
 			demo
 		</label>
 
-		<input class="tags__radio hidden js-tag" type="radio" name="tag" value="event" id="tags-event">
-		<label class="tags__label" for="tags-event">
-			event
-		</label>
-
-		<input class="tags__radio hidden js-tag" type="radio" name="tag" value="game" id="tags-game">
-		<label class="tags__label" for="tags-game">
-			game
-		</label>
-
-		<input class="tags__radio hidden js-tag" type="radio" name="tag" value="news" id="tags-news">
-		<label class="tags__label" for="tags-news">
-			news
-		</label>
-
 		<input class="tags__radio hidden js-tag" type="radio" name="tag" value="reference" id="tags-reference">
 		<label class="tags__label" for="tags-reference">
 			reference
 		</label>
 
-		<input class="tags__radio hidden js-tag" type="radio" name="tag" value="shopping" id="tags-shopping">
-		<label class="tags__label" for="tags-shopping">
-			shopping
-		</label>
 
-		<input class="tags__radio hidden js-tag" type="radio" name="tag" value="social" id="tags-social">
-		<label class="tags__label" for="tags-social">
-			social
-		</label>
-
-		<input class="tags__radio hidden js-tag" type="radio" name="tag" value="tool" id="tags-tool">
-		<label class="tags__label" for="tags-tool">
-			tool
-		</label>
 
 		<input class="tags__radio hidden js-tag" type="radio" name="tag" value="other" id="tags-other">
 		<label class="tags__label" for="tags-other">
-			other
+			其他
 		</label>
 
 	</nav>
 
 	<main class="list js-list" data-filter="all">
+
+		<a class="list__item app js-app"
+				href="https://expensive.toys/mandala/"
+				data-app="曼荼罗"
+				data-tags="game">
+			<style>
+				[data-app='曼荼罗'] {
+					color: #151515;
+					background: currentColor url(apps/mandala.png) 50% 50% / 46% auto no-repeat;
+					}
+			</style>
+			<div class="app__wrapper">
+				<h2 class="app__title">
+					曼荼罗
+				</h2>
+			</div>
+		</a>
 
 		<a class="list__item app js-app"
 				href="https://airhorner.com/"
@@ -1085,15 +1104,12 @@
 
 	<footer class="footer">
 		<p class="footer__text">
-			Made by the
-			<a class="footer__link" href="https://github.com/pwarocks/pwa.rocks/graphs/contributors">
-				pwa.rocks contributors
-			</a>
+      轻鹿怡情，重撸伤身，强撸灰飞烟灭
 		</p>
 	</footer>
 
 	<script src="script.js"></script>
-	
+
 
 </body>
 </html>
