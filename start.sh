@@ -2,6 +2,8 @@
 
 set -x
 
+cd `dirname $0`
+
 git pull
 docker build -t qinglu/nginx .
 docker rm -f qinglu-nginx
